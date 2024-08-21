@@ -4,7 +4,7 @@ Exercise:
     module: 'Module 04 - Load balancing non-HTTP(S) traffic in Azure'
 ---
 
-# M04-Unit 6 Create a Traffic Manager profile using the Azure portal
+# M04 - Unit 6 Create a Traffic Manager profile using the Azure portal
 
 ## Exercise scenario
 
@@ -170,6 +170,8 @@ In this section, you will check the DNS name of your Traffic Manager profile, an
 1. Open a new web browser session, and paste (or enter) the **DNS name** entry (contoso-tmprofile.trafficmanager.net) into the address bar, and press Enter.
 
 1. Verify that the web app is still responding. As the primary endpoint was not available, the traffic was instead routed to the failover endpoint to allow the web site to still function.
+
+Congratulations! You have created and configured an Azure Traffic Manager profile!
 
 ## Task 5: Clean up resources
 

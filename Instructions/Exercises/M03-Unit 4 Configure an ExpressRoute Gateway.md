@@ -3,7 +3,8 @@ Exercise:
     title: 'M03 - Unit 4 Configure an ExpressRoute Gateway'
     module: 'Module 03 - Design and implement Azure ExpressRoute'
 ---
-# M03-Unit 4 Configure an ExpressRoute Gateway
+
+# M03 - Unit 4 Configure an ExpressRoute Gateway
 
 ## Exercise scenario
 
@@ -14,8 +15,6 @@ To connect your Azure virtual network and your on-premises network via ExpressRo
 **Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/AZ-700%20Lab%20Simulation%20-%20Configure%20an%20ExpressRoute%20gateway)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Estimated time: 60 minutes (includes ~45 minutes deployment waiting time)
-
-**Gateway types**
 
 When you create a virtual network gateway, you need to specify several settings. One of the required settings, '-GatewayType', specifies whether the gateway is used for ExpressRoute, or VPN traffic. The two gateway types are:
 
@@ -62,7 +61,7 @@ In this exercise, you will:
 
 1. Confirm that the VNet passes the validation and then select **Create**.
 
-> [!Note]  
+> **NOTE**
 >
 > If you are using a dual stack virtual network and plan to use IPv6-based private peering over ExpressRoute, select Add IP6 address space and input IPv6 address range values.
 
@@ -96,8 +95,8 @@ In this exercise, you will:
 
 1. When the deployment is complete, select **Go to Resource**.
 
-> [!Note]
+> **NOTE**
 >
-> it can take up to 45 minutes to deploy a Gateway.
+> It can take up to 45 minutes to deploy an ExpressRoute Gateway.
 
 Congratulations! You have successfully created a Virtual network, a gateway subnet, and an ExpressRoute Gateway.

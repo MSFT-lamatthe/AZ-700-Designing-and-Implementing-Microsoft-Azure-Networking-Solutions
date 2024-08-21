@@ -4,7 +4,7 @@ Exercise:
     module: 'Module 06 - Design and implement network security '
 ---
 
-# M06-Unit 7 Deploy and configure Azure Firewall using the Azure portal
+# M06 - Unit 7 Deploy and configure Azure Firewall using the Azure portal
 
 ## Exercise scenario
 
@@ -297,7 +297,7 @@ In this task, you will add a DNAT rule that allows you to connect a remote deskt
    | Translated address    | Enter the private IP address from **Srv-Work** that you noted earlier.<br />**e.g. - 10.0.2.4** |
    | Translated port       | **3389**                                                     |
 
-​  ![Add a DNAT rule collection](../media/add-a-dnat-rule.png)
+   ​ ![Add a DNAT rule collection](../media/add-a-dnat-rule.png)
 
 1. Select **Add**.
 

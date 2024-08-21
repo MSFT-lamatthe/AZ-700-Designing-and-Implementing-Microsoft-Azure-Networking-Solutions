@@ -4,7 +4,7 @@ Exercise:
     module: 'Module 06 - Design and implement network security'
 ---
 
-# M06-Unit 4 Configure DDoS Protection on a virtual network using the Azure portal
+# M06 - Unit 4 Configure DDoS Protection on a virtual network using the Azure portal
 
 ## Exercise scenario
 
@@ -155,7 +155,7 @@ In this step you will create a virtual machine, assign a public IP address to it
    | Region                | Your region                                                  |
    | Availability options  | **No infrastructure  redundancy required**                   |
    | Image                 | **Ubuntu Server 20.04 LTS -  Gen 2** (Select Configure VM Generation link if needed) |
-   | Size                  | Select **See  all sizes**, then choose **B1ls** in the  list and choose **Select**  **(Standard_B1ls - 1 vcpu,  0.5 GiB memory** |
+   | Size                  | Select **See  all sizes**, then choose **B1ls** in the  list and choose **Select** **Standard_B1ls - 1 vcpu,  0.5 GiB memory** |
    | Authentication type   | **SSH public key**                                           |
    | Username              | **azureuser**                                                |
    | SSH public key source | **Generate new key pair**                                    |
